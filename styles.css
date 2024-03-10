@@ -5,7 +5,9 @@ body {
 
 .landing-page {
     background-image: url('./images/main.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
     width: auto;
-    height: 880px;
+    height: 885px;
 }
 
