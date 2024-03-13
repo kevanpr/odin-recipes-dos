@@ -22,9 +22,12 @@ body {
 }
 
 .right-box {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.text-inner {
     display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 .rti-creator-one {
