@@ -26,3 +26,15 @@ body {
     flex-direction: row;
     align-items: center;
 }
+
+.rti-creator-one {
+    color: #FFFFFF;
+}
+
+.rti-creator-two {
+    color: #F3C997;
+}
+
+.text-outer {
+    color: #EF601E;
+}
