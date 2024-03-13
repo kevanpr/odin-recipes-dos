@@ -10,5 +10,19 @@ body {
     background-size: cover;
     width: auto;
     height: 885px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
+.left-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
