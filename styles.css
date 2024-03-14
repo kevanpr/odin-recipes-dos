@@ -15,7 +15,13 @@ body {
     justify-content: space-around;
 }
 
-/*RIGHT BOX*/
+/*LEFT BOX*/
+
+.left-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .title {
     font-family: "Angkor", "Berkshire Swash", cursive;
@@ -46,13 +52,22 @@ a.recipes {
     color: #F8D210;
 }
 
-/*LEFT BOX*/
+/*RIGHT BOX*/
 
-
-.left-box {
+.right-box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: Georgia, "Times New Roman", cursive;
+    font-size: 28px;
+    font-weight: bold;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.text-inner {
+    display: flex;
 }
 
 .rti-creator-one {
@@ -64,5 +79,8 @@ a.recipes {
 }
 
 .text-outer {
+    display: flex;
+    align-self: start;
     color: #EF601E;
+    margin-top: 90px;
 }
