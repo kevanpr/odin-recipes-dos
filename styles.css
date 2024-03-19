@@ -13,6 +13,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    gap: 250px;
 }
 
 /*LEFT BOX*/
@@ -60,7 +61,7 @@ a.recipes {
     align-items: center;
     text-transform: uppercase;
     font-family: Georgia, "Times New Roman", cursive;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: bold;
     writing-mode: vertical-lr;
     text-orientation: upright;
@@ -80,7 +81,7 @@ a.recipes {
 
 .text-outer {
     display: flex;
-    align-self: start;
+    align-self: flex-start;
     color: #EF601E;
-    margin-top: 90px;
+    margin-top: 75px;
 }
