@@ -71,6 +71,7 @@ a.recipes {
     display: flex;
     align-self: flex-end;
     margin-bottom: 72px;
+    text-decoration: none;
 }
 
 .rti-creator-one {
