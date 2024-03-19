@@ -1,0 +1,19 @@
+body {
+    background-color: #FDF3DD;
+}
+
+.recipes {
+    display: flex;
+    flex-direction: row;
+}
+
+.creator {
+    display: flex;
+    flex-direction: column;
+}
+
+.dish {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
