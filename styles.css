@@ -69,6 +69,8 @@ a.recipes {
 
 .text-inner {
     display: flex;
+    align-self: flex-end;
+    margin-bottom: 72px;
 }
 
 .rti-creator-one {
@@ -76,7 +78,7 @@ a.recipes {
 }
 
 .rti-creator-two {
-    color: #F3C997;
+    color: #F8D210;
 }
 
 .text-outer {
