@@ -81,8 +81,10 @@ img.rcb-girl {
 }
 
 a.rcb-title {
-
-
+    color: #CB962E;
+    font-size: 45px;
+    line-height: 50px;
+    text-align: -webkit-center;
 }
 
 /* DISH */
