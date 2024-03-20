@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #FDF3DD;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Angkor", "Berkshire Swash", cursive;
     width: auto;
     height: 100vh;
     overflow-y: hidden; 
@@ -78,6 +78,11 @@ img.rcb-girl {
     display: flex;
     align-self: flex-end;
     width: 450px;
+}
+
+a.rcb-title {
+
+
 }
 
 /* DISH */
