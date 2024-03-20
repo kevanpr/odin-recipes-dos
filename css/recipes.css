@@ -49,10 +49,11 @@ img {
     text-transform: uppercase;
     letter-spacing: 5px;
     gap: 15px;
+    margin-top: 25px;
 }
 
 img.rct-logo {
-    max-width: 150px;
+    max-width: 75px;
 }
 
 .rc-bottom {
