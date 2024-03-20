@@ -25,7 +25,7 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 950px;
+    width: 1100px;
     gap: 25px;
     flex-wrap: wrap;
 }
@@ -57,8 +57,8 @@ img.rct-logo {
     background-color: #D6E8F7;
     border-radius: 25px;
     border-style: none;
-    width: 300px;
-    height: 550px;
+    width: 350px;
+    height: 600px;
 }
 
 img.rcb-button {
@@ -73,8 +73,8 @@ img.rcb-button {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
 }
 
 .dish-text {
