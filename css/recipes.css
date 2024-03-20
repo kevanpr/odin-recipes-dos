@@ -18,6 +18,8 @@ body {
 .creator {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    max-width: 350px;
 }
 
 .dish {
@@ -40,8 +42,13 @@ img {
 
 .rc-top {
     display: flex;
-    font-size: 24px;
+    justify-content: flex-start;
     align-items: center;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    gap: 15px;
 }
 
 img.rct-logo {
