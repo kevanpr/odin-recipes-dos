@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #FDF3DD;
-    font-family: Tahoma, Verdana, Arial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: auto;
     height: 100vh;
     overflow-y: hidden; 
@@ -40,7 +40,6 @@ img {
 
 .rc-top {
     display: flex;
-    font-family: Tahoma, Verdana, Arial;
     font-size: 24px;
     align-items: center;
 }
