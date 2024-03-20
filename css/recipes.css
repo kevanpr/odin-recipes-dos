@@ -164,3 +164,7 @@ a.s-title.bottom {
     margin-top: 20px;
     color: #CAAACD;
 }
+
+img.dish-png {
+    width: 500px;
+}
