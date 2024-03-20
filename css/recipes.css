@@ -59,7 +59,6 @@ img.rct-logo {
 .rc-bottom {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     background-color: #D6E8F7;
     border-radius: 25px;
@@ -73,6 +72,12 @@ img.rcb-button {
     width: 35px;
     align-self: flex-end;
     padding: 20px;
+}
+
+img.rcb-girl {
+    display: flex;
+    align-self: flex-end;
+    width: 450px;
 }
 
 /* DISH */
