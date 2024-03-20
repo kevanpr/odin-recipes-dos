@@ -98,7 +98,7 @@ a.rcb-title {
 
 .dish-text {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     border-radius: 25px;
 }
@@ -132,4 +132,35 @@ a.rcb-title {
 
 .dish-img.six {
     background-color: #F1DFB6;
+}
+
+.s-title {
+    text-decoration: none;
+    text-align: -webkit-center;
+    font-size: 45px;
+    line-height: 50px;
+}
+
+img.s-button {
+    display: flex;
+    width: 35px;
+    align-self: flex-end;
+    padding: 20px 20px 0px 0px;
+}
+
+img.s-element {
+    width: 150px;
+}
+
+a.s-title.top-one {
+    color: #FDF3DD;
+}
+
+a.s-title.top-two {
+    color: #D6E8F7;
+}
+
+a.s-title.bottom {
+    margin-top: 20px;
+    color: #CAAACD;
 }
