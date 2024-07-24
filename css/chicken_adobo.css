@@ -103,3 +103,13 @@ ul.ingredientsList {
     margin-right: 28px;
     width: 500px;
 }
+
+.stepSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ol.stepsList {
+    width: 800px;
+}
