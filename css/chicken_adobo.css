@@ -88,3 +88,18 @@ p.descText {
     text-align: center;
 }
 
+.ingredientSection {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+h2.ingredientsTitle {
+    text-align: center;
+}
+
+ul.ingredientsList {
+    -webkit-columns: 2;
+    margin-right: 28px;
+    width: 500px;
+}
