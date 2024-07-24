@@ -6,3 +6,9 @@ body {
     font-family: "Angkor", "Berkshire Swash", cursive;
 }
 
+h1.dishTitle {
+    text-align: center;
+    color: #CB962E;
+    font-family: "Berkshire Swash", cursive;
+    font-size: xxx-large;
+}
