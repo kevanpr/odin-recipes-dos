@@ -6,6 +6,10 @@ body {
     font-family: "Zen Kaku Gothic New";
 }
 
+h2 {
+    margin-bottom: 0px;
+}
+
 h1.dishTitle {
     text-align: center;
     color: #CB962E;
@@ -72,3 +76,15 @@ img.dishPng {
       transform: rotate(360deg);
     }
   }
+
+.dishDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p.descText {
+    width: 32%;
+    text-align: center;
+}
+
