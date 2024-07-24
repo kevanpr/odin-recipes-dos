@@ -112,6 +112,6 @@ h2.ingredientsTitle {
 ol.stepsList {
     height: 230px;
     width: 1100px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 48px;
+    column-count: 2;
+    column-gap: 48px;
 }
