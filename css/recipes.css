@@ -166,6 +166,16 @@ a.s-title.bottom {
     color: #CAAACD;
 }
 
+a.s-title.top-one:hover, 
+a.s-title.top-two:hover,
+a.s-title.bottom:hover {
+    color: ghostwhite;
+}
+
+a.rcb-title:hover {
+    color: chocolate;
+}
+
 img.dish-png {
     width: 500px;
 }
