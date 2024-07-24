@@ -12,3 +12,9 @@ h1.dishTitle {
     font-family: "Berkshire Swash", cursive;
     font-size: xxx-large;
 }
+
+img.adoboImg {
+    width: 20%;
+    display: flex;
+    align-self: center;
+}
