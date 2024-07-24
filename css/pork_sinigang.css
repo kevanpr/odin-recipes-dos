@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #FDF3DD;
+    font-family: "Zen Kaku Gothic New";
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+h1.dishTitle {
+    text-align: center;
+    color: #CB962E;
+    font-family: "Berkshire Swash", cursive;
+    font-size: xxx-large;
+}
+
+.imgSection {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.dishSquare {
+    background-color: #F1DFB6;
+    border-radius: 25px;
+}
+
+img.sinigangImg {
+    width: 20%;
+    display: flex;
+    align-self: center;
+}
+
+img.dishPng {
+    -webkit-animation: spin 15s linear infinite;
+    -moz-animation: spin 15s linear infinite;
+    -o-animation: spin 15s linear infinite;
+    animation: spin 15s linear infinite;
+}
+  
+  @-webkit-keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  
+  @-moz-keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  
+  @-o-keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+
+.dishDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p.descText {
+    width: 50%;
+    text-align: center;
+}
+
+.recipeSection {
+    display: flex;
+    align-self: center;
+    gap: 48px;
+}
+
+.ingredientSection {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+h2.ingredientsTitle {
+    text-align: center;
+}
+
+.stepSection {
+    display: flex;
+    flex-direction: column;
+}
+
+ol.stepsList {
+    height: 230px;
+    width: 1100px;
+}
