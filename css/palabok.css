@@ -110,3 +110,19 @@ h2.ingredientsTitle {
     gap: 48px;
     align-items: flex-start;
 }
+
+.stepSection {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+h2.steps {
+    text-align: center;
+}
+
+ol.stepsList {
+    column-count: 2;
+    column-gap: 48px;
+}
